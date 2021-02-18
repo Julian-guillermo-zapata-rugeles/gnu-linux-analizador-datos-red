@@ -1,3 +1,9 @@
+"""
+Este módulo tiene como objetivo retornar rutas asociadas o necesarias
+al modulo gestor
+
+"""
+
 import os
 
 def obtenerRutaDatos():
