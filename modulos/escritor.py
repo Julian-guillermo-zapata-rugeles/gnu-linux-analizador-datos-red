@@ -6,10 +6,10 @@ a travez del paso de argumento.
 
 
 """
-def guardarInformacion(string_cadena , string_ruta_archivo):
+def guardarInformacion(string_cadena , string_ruta_archivo , string_file_name):
     try:
         print("[escritura] guardando.")
-        archivo = open(string_ruta_archivo,"a")
+        archivo = open((string_ruta_archivo+string_file_name),"a")
         archivo.write(string_cadena)
         archivo.write('\n')
         archivo.close()
